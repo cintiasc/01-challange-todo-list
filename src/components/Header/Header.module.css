@@ -1,0 +1,22 @@
+.header {
+    position: fixed;
+    display: block;
+    width: 100%;
+    top: 0;
+    height: 12.5rem;
+    background-color: var(--gray-700);
+    padding-top: 4.5rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header img {
+    height: 3rem;
+}
+
+@media (max-width: 820px) {
+    .html {
+        font-size: 80%;
+    }
+}
