@@ -56,7 +56,7 @@ function App() {
   }
   function handleDeleteTask(idToDelete: number){
     const tempTaskList = taskList.filter(task =>{
-      return task.id !== idToDelete
+      return task.id != idToDelete
     })
     setTaskList(tempTaskList);
     countTasklsDone(tempTaskList)
